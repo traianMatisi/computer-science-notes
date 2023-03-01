@@ -1,2 +1,2 @@
 # computer-science-notes
- College notes about C from computer science major at UFRRJ
+ College notes from the courses of computer science major at UFRRJ
