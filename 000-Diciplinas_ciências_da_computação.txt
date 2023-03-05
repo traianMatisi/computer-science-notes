@@ -1,0 +1,8 @@
+Introdução à ciência da computação
+Computadores e sociedade
+Circuitos digitais
+Programação estruturada
+Matemática discreta
+Geometria analítica
+Arquitetura de computadores
+Engenharia de software
