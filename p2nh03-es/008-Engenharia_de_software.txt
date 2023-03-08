@@ -1,0 +1,42 @@
+
+
+Trabalho prático 4:
+
+	-Realizar a inspeção do Documento de Requisitos E da Descrição dos Casos de Uso
+		Levar em consideração os critérios de qualidade dos requisitos e casos de uso
+		Levar em consideração a necessidade dos documentos estarem consistentes entre si
+	-A inspeção deve ser realizada a partir de duas atividades
+		--> Planejamento --> Detecção
+		planejamento: definir um checklist com questões para apoiar a inspeção
+		detecção: identificar defeitos, preenchendo o checklist, apresentando os problemas identificados e sugerindo alterações para corrigí-los
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+| 18 - Gerência de qualidade  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Trabalho prático 5:
+
+	-Definir testes para o projeto inicial. É preciso justificar:
+		Níveis do teste
+		Tipos de teste
+		Técnicas de teste
+
+	-Pesquise alguma ferramenta de apoio aos testes e apresente por meio dos seuintes itens:
+		Descriçaõ geral
+		Quais tipos de testes apóia
+		Principais funcionalidades
+		Como os resultados são apresentados
+		
+		Lista de ferramentas:
+			Selenium
+			Appium
+			Cucumber
+			JMeter
+			TestNG
+			WatiR
+			Cypress
+			JUnint
+			TestComplete
+			Telerik Test Studio
+			FitNesse
+			
