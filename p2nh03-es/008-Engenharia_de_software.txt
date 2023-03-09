@@ -1,3 +1,6 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|   |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 Trabalho prático 4:
@@ -49,11 +52,11 @@ Abordagens de qualidade:
 
 	Abordagem Crosby:
 
-Ciclo PDCA (plan-do-check-act) - Forma de controle de processo:
-	-P
-	-D
-	-C
-	-A
+	Abordagem do Ciclo PDCA (plan-do-check-act) - Forma de controle de processo:
+		-P
+		-D
+		-C
+		-A
 
 Ferramentas de qualidade:
 
@@ -84,6 +87,12 @@ Qualidade do produto versus Qualidade do processo.
 			-Executar o processo.
 			-Melhorar o processo.
 			-Definir o processo.
+
+		Normas e modelos de maturidade da qualidade de processo:
+			ISO/IEC 12.207
+			ISO/IEC 33.0xx
+			CMMI-DEV
+			MR-MPS
 
 Trabalho prático 5:
 
