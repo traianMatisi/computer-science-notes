@@ -2,41 +2,115 @@
 
 Trabalho prático 4:
 
-	-Realizar a inspeção do Documento de Requisitos E da Descrição dos Casos de Uso
-		Levar em consideração os critérios de qualidade dos requisitos e casos de uso
-		Levar em consideração a necessidade dos documentos estarem consistentes entre si
-	-A inspeção deve ser realizada a partir de duas atividades
-		--> Planejamento --> Detecção
-		planejamento: definir um checklist com questões para apoiar a inspeção
-		detecção: identificar defeitos, preenchendo o checklist, apresentando os problemas identificados e sugerindo alterações para corrigí-los
+	-Realizar a inspeção do Documento de Requisitos E da Descrição dos Casos de Uso.
+		Levar em consideração os critérios de qualidade dos requisitos e casos de uso.
+		Levar em consideração a necessidade dos documentos estarem consistentes entre si.
+	-A inspeção deve ser realizada a partir de duas atividades.
+		--> Planejamento --> Detecção.
+		planejamento: definir um checklist com questões para apoiar a inspeção.
+		detecção: identificar defeitos, preenchendo o checklist, apresentando os problemas identificados e sugerindo alterações para corrigi-los.
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 | 18 - Gerência de qualidade  |
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
+Qualidade é um atributo subjetivo. Contudo podemos escolher algumas abordagens para padronizar um controle de qualidade.
+Primeiro, temos que dividir o processo de melhoria da qualidade em duas etapas.
+
+	-Análise do problema.
+	-Projeto da solução.
+
+Os atributos de um software de qualidade variam de pessoa pra pessoa, mas podemos escolher algumas abordagens comuns.
+Essas abordagens levam em conta algumas características do software:
+
+	-Tamanho do software.
+	-Complexidade do software.
+	-Métodos, técnicas e ferramentas utilizadas.
+	-Custo/benefício.
+	-Custos associados à existência de erros.
+	-Custos associados à detecção e remoção de erros.
+	-Etcetera
+
+Na história, tivemos 3 grandes "escolas de qualidade nas industrias":
+
+	-Inspeção de produtos individualmente (industria artesanal).
+	-Inspeção por amostragem (linha de produção).
+	-Inspeção do processo produtivo.
+
+Abordagens de qualidade:
+
+	Abordagem Deming:
+		-Qualidade inicia com alto nível gerencial.
+		-Qualidade desde os fornecedores até o cliente final.
+		-Fazer certo na primeira vez.
+		-14 princípios.
+
+	Abordagem Feigenbaum:
+
+	Abordagem Crosby:
+
+Ciclo PDCA (plan-do-check-act) - Forma de controle de processo:
+	-P
+	-D
+	-C
+	-A
+
+Ferramentas de qualidade:
+
+	-Fluxograma.
+	-Diagrama de Ishikawa.
+	-Gráfico de Paretto
+	-Histograma.
+	-Diagrama de dispersão.
+	-Folha de verificação.
+	-Gráfico de controle.
+
+Qualidade do produto versus Qualidade do processo.
+
+	Qualidade do PRODUTO depende de:
+		-Qualidade do PROCESSO.
+		-Qualidade da equipe
+		-Tecnologias do desenvolvimento.
+		-Custo/Tempo/Cronograma
+
+	Qualidade do PROCESSO influencia:
+		-Atributos da qualidade interna do produto.
+		-Atributos da qualidade externa do produto.
+		-Atributos da qualidade de uso do produto.
+
+		Para controlar a melhoria do processo:
+			-Medir/avaliar o processo.
+			-controlar o processo.
+			-Executar o processo.
+			-Melhorar o processo.
+			-Definir o processo.
+
 Trabalho prático 5:
 
 	-Definir testes para o projeto inicial. É preciso justificar:
-		Níveis do teste
-		Tipos de teste
-		Técnicas de teste
+		
+		Níveis do teste.
+		Tipos de teste.
+		Técnicas de teste.
 
-	-Pesquise alguma ferramenta de apoio aos testes e apresente por meio dos seuintes itens:
-		Descriçaõ geral
-		Quais tipos de testes apóia
-		Principais funcionalidades
-		Como os resultados são apresentados
+	-Pesquise alguma ferramenta de apoio aos testes e apresente por meio dos seguintes itens:
+		
+		Descrição geral.
+		Quais tipos de testes apoia.
+		Principais funcionalidades.
+		Como os resultados são apresentados.
 		
 		Lista de ferramentas:
-			Selenium
-			Appium
-			Cucumber
-			JMeter
-			TestNG
-			WatiR
-			Cypress
-			JUnint
-			TestComplete
-			Telerik Test Studio
-			FitNesse
+		
+			-Selenium.
+			-Appium.
+			-Cucumber.
+			-JMeter.
+			-TestNG.
+			-WatiR.
+			-Cypress.
+			-JUnint.
+			-TestComplete.
+			-Telerik Test Studio.
+			-FitNesse.
 			
