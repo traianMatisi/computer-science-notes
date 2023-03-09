@@ -1,0 +1,26 @@
+Coursera and Google: Introduction to Git and Github
+
+Git is a CVS (control version system).
+Github is a database of programmers and their codes (like a social network).
+
+DIFFING FILES:
+[user@pc] ~$ diff helloWorld.py helloFriend.py
+	Returns only the lines that are different between the two files.
+		> Means the line was added to the file
+		< Means the line was removed from the file
+		5c5, 6 means the line 5 changed to line 5 and 6
+		11a13, 15 means lines 13 thru 15 was added
+[user@pc] ~$ diff -u helloWorld.py helloFriend.py
+	Returns the difference in a more friendly format
+		+ means a line was added
+		- means a line was removed
+Other diffs:
+wdiff: Returns the different words highlighted
+meld:
+KDiff3
+vimdiff
+Another usefull way to use diff
+[user@pc] ~$ diff -u old_file.c new_file.c > change.diff
+	It will generate a file containing all the changes between both
+It can show any external work by peers, and also gives us an easy patch to use with the PATCH command
+[user@pc] ~$ patch file.c < file.diff
