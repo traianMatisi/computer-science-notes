@@ -94,13 +94,105 @@ Qualidade do produto versus Qualidade do processo.
 			CMMI-DEV
 			MR-MPS
 
+-=-=-=-=-=-=-=-=-
+| 20 - Testes   |
+-=-=-=-=-=-=-=-=-
+
+Teste: Processos de execução controlada do software
+	Visa determinar:
+		Se atingiu as especificações.
+		Se funciona corretamente pro seu contexto.
+		
+		Testes visam revelar as falhas do produto.
+			| falha --> | erro --> | defeito | <-- erro | <-- falha |
+
+		Depuração é algo não previsto em teste.
+			Revelada a presença do falha os defeitos devem ser identificados e corrigidos.
+
+		Passar em todos os testes não significa que o software não tenha defeitos, mas sim significar que os testes não eram bons nem abrangentes.
+			Testes só podem mostrar a PRESENÇA de erros, não sua AUSÊNCIA. -Dijkstra-
+
+		Testes destrutivos versus Testes construtivos
+			Visão tradicional
+			Visão ágil
+
+		Testes se baseiam quase em sua totalidade nos requisitos e seus documentos. Testam o software em todos os estágios do desenvolvimento. E mesmo as menores mudanças nos requisitos podem afetar completamente a abordagem dos testes e seus resultados.
+			-Devem ser rastreáveis aos requisitos.
+			-Devem ser comletamente planejados antes do início.
+			-O princípio 80/20 de Paretto se aplica aos testes.
+			-Os testes devem inicialmente serem pequenos e depois escalar.
+
+	Conceitos básicos:
+		-Casos de teste: descrição de condição particular a ser testada.
+		-Procedimento de teste: descrição dos passos necessários para a execução de um ou mais grupos de casos de teste.
+		-Critérios de cobertura de teste: percentual de elementos testados.
+		-Bateria de testes: um ciclo de execução de todos os procedimentos de teste para uma versão do produto.
+
+	Processos de testes:
+		Planejamento de projeto de testes.
+			# Planejar testes.
+				– Definir contexto e escopo dos testes
+				– Estimar esforço
+				– Alocar recursos humanos
+		Captura de requisitos.
+			# Planejar testes.
+				– Definir contexto e escopo dos testes
+				– Estimar esforço
+				– Alocar recursos humanos
+		Análise e projeto.
+			# Projetar testes.
+				– Preparação do ambiente
+				– Criar estratégias e diretrizes
+				– Identificar casos e procedimentos de teste
+				– Especificar critério de aprovação
+		Implementação
+			# Implementar testes.
+			# Executar testes.
+			# Avaliar testes.
+
+		As atividades do planejamento:
+			# Especificar casos de teste.
+				-Especificar entradas e saídas
+				-Especificar restrições de uso.
+				-Definir dependências entre casos.
+			# Definir procedimentos de teste.
+				-Defnir Requisitos
+				-Descrever passos.
+
+		As atividdes de execução:
+			# Executar testes.
+				-Configurar ambiente de teste.
+				-Executar procedimentos de teste.
+				-Registrar incidentes.
+			# Analisar resultados.
+				-Registrar dados dos testes.
+
+Classificação SWEBOK.
+Classificação DI LUCCA e FASOLINO.
+Classificação CRESPO ET AL.
+
+
+
 Trabalho prático 5:
 
 	-Definir testes para o projeto inicial. É preciso justificar:
 		
-		Níveis do teste.
+		Níveis de teste.
+			Teste de unidade.
+			Testede integração.
+			Teste de sistema.
+			Teste de aceitação.
+			Teste de regressão.
 		Tipos de teste.
+			Teste de funcionalidades.
+			Teste de interface.
+			Teste de desempenho.
+			Teste de carga (stress).
+			Teste de usabilidade.
+			Teste de volume.
 		Técnicas de teste.
+			Teste funcional.
+			Teste estrutural.
 
 	-Pesquise alguma ferramenta de apoio aos testes e apresente por meio dos seguintes itens:
 		
@@ -109,7 +201,7 @@ Trabalho prático 5:
 		Principais funcionalidades.
 		Como os resultados são apresentados.
 		
-		Lista de ferramentas:
+		Lista das ferramentas:
 		
 			-Selenium.
 			-Appium.
@@ -118,8 +210,28 @@ Trabalho prático 5:
 			-TestNG.
 			-WatiR.
 			-Cypress.
-			-JUnint.
+			-JUnit.
 			-TestComplete.
 			-Telerik Test Studio.
 			-FitNesse.
 			
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+| Planejamento de testes  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Casos de uso
+
+	# Cadastrar usuários
+	# Cancelar cadastro de usuário.
+	# Otimizar percurso.
+	# Verificar eventos.
+	# Recarregar saldo.
+	# Pagar viagem.
+	# Cadastrar motorista.
+	# Cancelar cadastro de motorista.
+	# Cobrar viagem.
+	# Validar documentação.
+	# Sinalizar eventos.
+	# Otimizar uso de infraestrutura
+
+	Volto em 2
