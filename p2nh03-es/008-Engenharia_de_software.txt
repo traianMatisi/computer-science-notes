@@ -1,6 +1,6 @@
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-|   |
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+| Engenharia de Software  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 Trabalho prático 4:
@@ -118,7 +118,7 @@ Teste: Processos de execução controlada do software
 
 		Testes se baseiam quase em sua totalidade nos requisitos e seus documentos. Testam o software em todos os estágios do desenvolvimento. E mesmo as menores mudanças nos requisitos podem afetar completamente a abordagem dos testes e seus resultados.
 			-Devem ser rastreáveis aos requisitos.
-			-Devem ser comletamente planejados antes do início.
+			-Devem ser completamente planejados antes do início.
 			-O princípio 80/20 de Paretto se aplica aos testes.
 			-Os testes devem inicialmente serem pequenos e depois escalar.
 
