@@ -234,4 +234,4 @@ Casos de uso
 	# Sinalizar eventos.
 	# Otimizar uso de infraestrutura
 
-	Volto em 2
+	Volto em 5
