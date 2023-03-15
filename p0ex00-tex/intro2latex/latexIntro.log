@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.5)  14 MAR 2023 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.5)  14 MAR 2023 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,7 +212,7 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 )
 
 LaTeX Warning: Unused global option(s):
-    [14pt].
+    [18pt].
 
 (./latexIntro.aux)
 \openout1 = `latexIntro.aux'.
@@ -300,7 +300,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+3.
+(c:/texlive/2022/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
@@ -309,23 +321,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./latexIntro.aux) ) 
 Here is how much of TeX's memory you used:
- 4791 strings out of 478268
- 75721 string characters out of 5850346
- 387103 words of memory out of 5000000
- 22955 multiletter control sequences out of 15000+600000
- 477149 words of font info for 60 fonts, out of 8000000 for 9000
+ 4814 strings out of 478268
+ 76097 string characters out of 5850346
+ 389103 words of memory out of 5000000
+ 22974 multiletter control sequences out of 15000+600000
+ 477754 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,62p,229b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on latexIntro.pdf (1 page, 63468 bytes).
+cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb>
+Output written on latexIntro.pdf (1 page, 75009 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
